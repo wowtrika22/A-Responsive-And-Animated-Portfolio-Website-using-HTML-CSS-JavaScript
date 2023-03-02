@@ -86,3 +86,30 @@ h3 {
 h4 {
     font-size: 1.3rem;
 }
+
+/*--==========================
+ About Section
+============================-*/
+.about {
+    display: flex;
+    justify-content: center;
+}
+.about .container {
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 7rem 0;
+}
+
+.about .container .left img{
+    width: 37rem;
+    height: 37rem;
+}
+
+.about .container .right {
+    margin-top: 30%;
+}
+
+.about .container .right h3 {
+    margin: 0.5rem 0 2rem 0;
+}
