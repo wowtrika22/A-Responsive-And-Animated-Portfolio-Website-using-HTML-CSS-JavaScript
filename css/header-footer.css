@@ -5,7 +5,7 @@ section-header
     position: relative;
     width: 100%;
     height: 100vh;
-    background: linear-gradient(rgba(0, 0, 0, 0.8),rgba(0, 0, 0, 0.8)),url(img/Isometric\ workspace.png);
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(img/Isometric\ workspace.png);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -32,9 +32,8 @@ nav {
 
 /*change nav-bar when scroll*/
 .window-scroll {
-    background: black;
+    background: linear-gradient(180deg,rgb(255, 0, 64),rgb(0, 0, 0));
     box-shadow: 0 3rem 2rem rgba(0, 0, 0, 0.3);
-    opacity: 0.8;
 }
 
 .header .nav-links ul {
@@ -94,7 +93,7 @@ nav {
 }
 
 .nav-links ul li a {
-    color: #ff274b;
+    color: #ffffff;
 }
 
 .nav-links ul li a:hover {
@@ -152,7 +151,7 @@ nav {
     margin-top: 4rem;
 }
 
-.header .content-header .left h3{
+.header .content-header .left h3 {
     margin: 1.4rem 0;
 }
 
@@ -160,7 +159,7 @@ nav {
     margin: 3rem 0;
 }
 
-.header .content-header .left .social a{
+.header .content-header .left .social a {
     background: #ff274b;
     border-radius: 50%;
     color: #fff;
@@ -172,7 +171,7 @@ nav {
     border: 1px solid white;
 }
 
-.header .content-header .left .btn{
+.header .content-header .left .btn {
     background: #ff274b;
     border-radius: 10px;
     color: #fff;
@@ -197,6 +196,21 @@ nav {
     width: 30rem;
     height: 30rem;
 }
+
+/*===========
+    footer-section
+=============*/
+.footer {
+    width: 100%;
+    background: linear-gradient(180deg,rgb(255, 0, 64),rgb(0, 0, 0));
+    margin-top: 3rem;
+    padding: 1rem 0;
+}
+
+.log h4 {
+    color: white;
+}
+
 
 /*==================================================
     MEDIA QUERIES TABLETS
@@ -268,7 +282,7 @@ nav {
         background: #ff274b;
     }
 
-    .nav-links ul li:hover a{
+    .nav-links ul li:hover a {
         color: black;
     }
 
@@ -300,7 +314,7 @@ nav {
     }
 
     .header .content-header .left .social a {
-       padding: 0.5rem;
+        padding: 0.5rem;
     }
 
     .header .content-header .left .btn {
@@ -313,7 +327,7 @@ nav {
     }
 
     /*---------footer-section-----------*/
-   
+
 
 }
 
@@ -334,7 +348,7 @@ nav {
     }
 
     /*nav-bar*/
-    .nav-links{
+    .nav-links {
         right: 3%;
     }
 
@@ -342,7 +356,7 @@ nav {
         height: 100vh;
     }
 
-    
+
     /*------------content-header-----------*/
 
     .header .content-header .left .social {
@@ -350,22 +364,20 @@ nav {
     }
 
     .header .content-header .left .social a {
-       padding: 0.4rem;
+        padding: 0.4rem;
     }
 
     .header .content-header .left .btn {
         padding: 0.5rem;
     }
-    
+
     .header .content-header .right img {
         width: 20rem;
         height: 20rem;
     }
 
-   
+
 
     /*---------footer-section-----------*/
-  
+
 }
-
-
